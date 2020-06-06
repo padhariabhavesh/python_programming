@@ -1,6 +1,13 @@
+"""
+@author:Bhavesh Padharia
+"""
+
+#desktop notification 
+
+
 # from gi.repository import Notify
 # Notify.init("App Name")
-# Notify.Notification.new("Hi bhavesh").show()
+# Notify.Notification.new("Hi bhavesh").show() #input message 
 #
 #
 
@@ -10,8 +17,8 @@ from gi.repository import Notify
 Notify.init("My Program Name")
 
 # Create the notification object
-summary = "Wake up!"
-body = "Meeting at 3PM!"
+summary = "Wake up!"  #input message 
+body = "Meeting at 3PM!"  #input message 
 notification = Notify.Notification.new(
     summary,
     body, # Optional
